@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from "./MyComponents/Header.js"
-import Todos from "./MyComponents/Todos.js"
-import Footer from "./MyComponents/Footer.js"
+import Header from "./MyComponents/Header"
+import Todos from "./MyComponents/Todos"
+import Footer from "./MyComponents/Footer"
 
 function App() {
   return (
     <>
-      <Header />
+      <Header title="my todo list" searchBar={false} />
       <Todos />
       <Footer />
     </>
